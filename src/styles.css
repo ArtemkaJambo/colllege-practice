@@ -1,0 +1,48 @@
+.container {
+    display: flex; /* Активація Flexbox */
+    justify-content: space-between; /* Рівномірне розташування */
+}
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    text-align: center;
+    line-height: 100px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+    }
+input { 
+    width: 300px;
+}
+ .btn {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+.btn:hover {
+    background-color: darkblue;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li:nth-child(even) {
+    color: blue;
+}
+li:nth-child(odd) {
+    color: green;
+}
+
+#full-width-block {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    background-color: lightgray;
+}
